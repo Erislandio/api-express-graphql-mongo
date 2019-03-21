@@ -1,0 +1,9 @@
+{
+  "name": "express-mongodb-graphql",
+  "version": "1.0.0",
+  "description": "Api graphql utilizando express e mongodb",
+  "main": "server.js",
+  "repository": "https://github.com/Erislandio/api-express-graphql-mongo.git",
+  "author": "Erislandio soares",
+  "license": "Open"
+}
