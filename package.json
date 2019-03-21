@@ -2,8 +2,29 @@
   "name": "express-mongodb-graphql",
   "version": "1.0.0",
   "description": "Api graphql utilizando express e mongodb",
-  "main": "server.js",
+  "main": "src/server.js",
   "repository": "https://github.com/Erislandio/api-express-graphql-mongo.git",
   "author": "Erislandio soares",
-  "license": "Open"
+  "license": "Open",
+  "scripts": {
+    "server": "nodemon --exec babel-node src/server.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.2.2"
+  }
 }
